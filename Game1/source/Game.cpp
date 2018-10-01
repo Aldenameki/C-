@@ -83,7 +83,7 @@ void updateAI(){
 }
 
 
-void Game::nextMap(unsigned walls){
+void Game::nextMap(unsigned int walls){
 	map.setMap('0');
 	map.randomWall(walls);
 	map.newCoin();
